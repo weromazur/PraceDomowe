@@ -14,8 +14,8 @@ namespace T2L4
             string lastName = "Kowalska";
             byte age = 28;
             char gender = 'k';
-            ulong pesel = 93010132102;
-            ulong employeeNumber = 2509324094;
+            string pesel = "93010132102";
+            string employeeNumber = "2509324094";
            
             //2. Napisz program, w którym stworzysz 3 zmienne z jedną literą, a następnie wypiszesz je
             //w odwrotnej kolejności niż zostały zadeklarowane.
@@ -58,7 +58,7 @@ namespace T2L4
             Console.WriteLine("Waga: ");
             float weight2 = float.Parse(Console.ReadLine());
             Console.WriteLine("Numer telefonu: ");
-            uint phoneNumber2 = uint.Parse(Console.ReadLine());
+            string phoneNumber2 = Console.ReadLine();
             Console.WriteLine("E-mail: ");
             string email2 = Console.ReadLine();
         }
